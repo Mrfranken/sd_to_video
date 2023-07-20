@@ -95,4 +95,4 @@ if __name__ == '__main__':
               'save_images': 'false',
               'alwayson_scripts': {}}
     data = text2img(url, params=params, base64_encoded_credentials=credential)
-    text_to_image(data['images'][0], f'./str({int(time.time())}).png')
+    text_to_image(data['images'][0], f'./{str(int(time.time()))}.png')
