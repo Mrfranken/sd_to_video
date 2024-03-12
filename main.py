@@ -8,9 +8,9 @@ from typing import Dict
 
 
 class StableDiffusionApi(object):
-    USERNAME = 'sijieapi'
-    PASSWORD = '92wsj___WIN'
-    MAIN_URL = 'http://58.34.1.33:53511'
+    USERNAME = 'xxx'
+    PASSWORD = 'xxx'
+    MAIN_URL = 'xxx'
 
     def __init__(self):
         self.headers = {
